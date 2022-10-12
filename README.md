@@ -1,4 +1,4 @@
-![Build Status](https://github.com/uwbfritz/grocy-api-tools/actions/workflows/shellcheck.yml/badge.svg)
+![Build Status](https://github.com/uwbfritz/grocy-api-tools/actions/workflows/main.yml/badge.svg)
 # Grocy API Tools
 
 Various scripts that you can use to manipulate the Grocy API. 
