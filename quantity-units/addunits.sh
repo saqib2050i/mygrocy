@@ -19,7 +19,7 @@ else
     . "$ENV_FILE"
 fi
 
-CATEGORY="products"
+CATEGORY="quantity_units"
 APIURL="${APIURL}${CATEGORY}"
 
 # Get Date/Time in MM/DD/YYYY HH:MM:SS format
