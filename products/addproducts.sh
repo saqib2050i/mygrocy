@@ -78,7 +78,6 @@ sed 1d list.txt | while IFS= read -r line; do
     "qu_id_price": ${qu_id_price}
 }
 EOF
-)
 
     curl -s -X POST "$APIURL" \
       -H 'accept: application/json' \
