@@ -1,0 +1,9 @@
+11,fl oz,Imperial and US customary unit of volume equal to 1/128 of a gallon,Fluid Ounces
+12,doz,Grouping of twelve items or units,Dozens
+13,gal,US customary unit of volume equal to 4 quarts or approximately 3.78541 liters,Gallons
+14,oz,Imperial and US customary unit of mass equal to 1/16 of a pound,Ounces
+15,pt,Unit of volume equivalent to 1/8 of a gallon or 16 fluid ounces,Pints
+16,qt,Unit of volume equivalent to 1/4 of a gallon or 32 fluid ounces,Quarts
+17,dash,Small, informal unit of volume used in cooking, typically less than 1/8 teaspoon,Dashes
+18,pinch,Small amount of an ingredient typically held between thumb and forefinger,Pinches
+19,drop,Small quantity of liquid typically dispensed from a dropper,Drops
