@@ -19,7 +19,7 @@ else
     . "$ENV_FILE"
 fi
 
-CATEGORY="quantity_units"
+CATEGORY="products"
 APIURL="${APIURL}${CATEGORY}"
 
 # Get Date/Time in MM/DD/YYYY HH:MM:SS format
@@ -27,19 +27,19 @@ DATE=$(date +%m/%d/%Y\ %H:%M:%S)
 
 # Iterate over source datafile
 sed 1d list.txt | while IFS= read -r line; do
-    id=$(echo "$line" | cut -d ' ' -f 1)
-    name=$(echo "$line" | cut -d ' ' -f 2)
-    description=$(echo "$line" | cut -d ' ' -f 3)
-    product_group_id=$(echo "$line" | cut -d ' ' -f 4)
-    location_id=$(echo "$line" | cut -d ' ' -f 5)
-    qu_id_purchase=$(echo "$line" | cut -d ' ' -f 6)
-    qu_id_stock=$(echo "$line" | cut -d ' ' -f 7)
-    default_consume_location_id=$(echo "$line" | cut -d ' ' -f 8)
-    qu_id_consume=$(echo "$line" | cut -d ' ' -f 9)
-    qu_id_price=$(echo "$line" | cut -d ' ' -f 10)
+    id=$(echo "$line" | cut -d ',' -f 1)
+    name=$(echo "$line" | cut -d ',' -f 2)
+    description=$(echo "$line" | cut -d ',' -f 3)
+    product_group_id=$(echo "$line" | cut -d ',' -f 4)
+    location_id=$(echo "$line" | cut -d ',' -f 5)
+    qu_id_purchase=$(echo "$line" | cut -d ',' -f 6)
+    qu_id_stock=$(echo "$line" | cut -d ',' -f 7)
+    default_consume_location_id=$(echo "$line" | cut -d ',' -f 8)
+    qu_id_consume=$(echo "$line" | cut -d ',' -f 9)
+    qu_id_price=$(echo "$line" | cut -d ',' -f 10)
 
     # Generate JSON
-    cat <<EOF >"${name}.json"
+    json_message=$(cat <<EOF
 {
     "id": ${id},
     "name": "${name}",
@@ -78,7 +78,7 @@ sed 1d list.txt | while IFS= read -r line; do
     "qu_id_price": ${qu_id_price}
 }
 EOF
-
+)
     curl -s -X POST "$APIURL" \
       -H 'accept: application/json' \
       -H 'Content-Type: application/json' \
@@ -90,3 +90,5 @@ EOF
 
     echo "Sent JSON message for id: $id"
 done < list.txt
+
+
