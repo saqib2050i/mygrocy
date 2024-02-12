@@ -1,2 +1,2 @@
 # id name description product_group_id location_id qu_id_purchase qu_id_stock default_consume_location_id qu_id_consume qu_id_price
-47 Rice_Flour "Fine flour made from milled rice grains" null 3 8 8 3 4 8
+47,Rice_Flour,Fine flour made from milled rice grains,null,3,8,8,3,4,8
