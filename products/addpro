@@ -26,11 +26,10 @@ get_quantity_unit_id() {
     echo "$unit_id"
 }
 
-# Function to get the ID of the locations from the Grocy API
 get_locations_id() {
     local content
     content=$(curl -s -X 'GET' "$APILOC" -H "accept: application/json" -H "GROCY-API-KEY: $APIKEY")
-    unit_id=$(echo "$content" | jq -r '.[] | select(.name == "'"$1"'") | .id')
+    location_id=$(echo "$content" | jq -r '.[] | select(.name == "'"$1"'") | .id')
     echo "$location_id"
 }
 
