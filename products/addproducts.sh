@@ -1,13 +1,12 @@
 #!/bin/sh
 
-#================================================
-#  ?             Grocy Data Tools
-#  @author      : uwbfritz
-#  @email       : <uwbfritz@gmail.com>
-#  @repo        : uwbfritz/grocy
-#  @createdOn   : 2022-10-11
-#  @description : Manage data in Grocy 
-#================================================
+# Function to fetch the last ID from JSON message obtained via API
+get_last_id() {
+    local content
+    content=$(curl -s -X 'GET' "$APIURL" -H "accept: application/json" -H "GROCY-API-KEY: $APIKEY")
+    lastid=$(echo "$content" | jq '.[-1].id')
+    echo "$lastid"
+}
 
 # Load variables from .env file
 ENV_FILE="../.env"
@@ -21,12 +20,21 @@ fi
 
 CATEGORY="products"
 APIURL="${APIURL}${CATEGORY}"
+hid=50
+
+# Get the last ID
+lastid=$(get_last_id)
+newid=$((lastid + 1))
 
 # Get Date/Time in MM/DD/YYYY HH:MM:SS format
 DATE=$(date +%m/%d/%Y\ %H:%M:%S)
 
-# Iterate over source datafile
-sed 1d list.txt | while IFS= read -r line; do
+# Read from list.txt and skip lines starting with #
+while IFS= read -r line; do
+    if [ "${line:0:1}" = "#" ]; then
+        continue
+    fi
+
     id=$(echo "$line" | cut -d ',' -f 1)
     name=$(echo "$line" | cut -d ',' -f 2)
     description=$(echo "$line" | cut -d ',' -f 3)
@@ -38,10 +46,10 @@ sed 1d list.txt | while IFS= read -r line; do
     qu_id_consume=$(echo "$line" | cut -d ',' -f 9)
     qu_id_price=$(echo "$line" | cut -d ',' -f 10)
 
-    # Generate JSON
+     # Generate JSON
     json_message=$(cat <<EOF
 {
-    "id": ${id},
+    "id": ${newid},
     "name": "${name}",
     "description": "${description}",
     "product_group_id": ${product_group_id},
@@ -79,16 +87,22 @@ sed 1d list.txt | while IFS= read -r line; do
 }
 EOF
 )
-    curl -s -X POST "$APIURL" \
+    response=$(curl -s -X POST "$APIURL" \
       -H 'accept: application/json' \
       -H 'Content-Type: application/json' \
       -H "GROCY-API-KEY: $APIKEY" \
-      -d "$json_message" || {
-          echo "Failed to send JSON message for id: $id"
-          exit 1
-      }
+      -d "$json_message")
 
-    echo "Sent JSON message for id: $id"
+    if [ $? -eq 0 ] && echo "$response" | jq -e '.created_object_id' > /dev/null; then
+    echo "$response : Sent JSON message for id: $id"
+        newid=$((newid + 1))
+elif [ $? -eq 0 ] && echo "$response" | jq -e '.error_message' > /dev/null; then
+    echo "Failed to send JSON message for id: $id"
+    echo "Response: $response"
+else
+    echo "Failed to send JSON message for id: $id"
+    echo "Unknown response: $response"
+fi
+
 done < list.txt
-
 
