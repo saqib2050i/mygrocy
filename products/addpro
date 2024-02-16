@@ -1,6 +1,4 @@
-  GNU nano 6.2                                                                                                                                                                  t1.sh                                                                                                                                                                      M     
 #!/bin/sh
-
 #================================================
 #  ?             Grocy Data Tools
 #  @author      : uwbfritz
@@ -32,7 +30,13 @@ get_locations_id() {
     location_id=$(echo "$content" | jq -r '.[] | select(.name == "'"$1"'") | .id')
     echo "$location_id"
 }
-
+# Function to get the ID of the product_group from the Grocy API
+get_product_group_id() {
+    local content
+    content=$(curl -s -X 'GET' "$APILOC" -H "accept: application/json" -H "GROCY-API-KEY: $APIKEY")
+    product_group_id=$(echo "$content" | jq -r '.[] | select(.name == "'"$1"'") | .id')
+    echo "$product_group_id"
+}
 # Load variables from .env file
 ENV_FILE="../.env"
 if [ ! -f "$ENV_FILE" ]; then
@@ -67,7 +71,7 @@ while IFS= read -r line; do
     id=$(echo "$line" | cut -d ',' -f 1)
     name=$(echo "$line" | cut -d ',' -f 2)
     description=$(echo "$line" | cut -d ',' -f 3)
-    product_group_id=$(echo "$line" | cut -d ',' -f 4)
+    product_group_id=$(get_product_group_id "$(echo "$line" | cut -d ',' -f 4)")
     location_id=$(get_locations_id "$(echo "$line" | cut -d ',' -f 5)")
     qu_id_purchase=$(get_quantity_unit_id "$(echo "$line" | cut -d ',' -f 6)")
     qu_id_stock=$(get_quantity_unit_id "$(echo "$line" | cut -d ',' -f 7)")
@@ -116,7 +120,6 @@ while IFS= read -r line; do
 }
 EOF
 )
-echo "JSON message for id $id: $json_message"
 
     response=$(curl -s -X POST "$API" \
       -H 'accept: application/json' \
@@ -128,10 +131,7 @@ echo "JSON message for id $id: $json_message"
         echo "$response : Sent JSON message for id $id : $json_message "
         newid=$((newid + 1))
     elif [ $? -eq 0 ] && echo "$response" | jq -e '.error_message' > /dev/null; then
-        echo "Failed to send JSON message for id $id : $json_message"
-        content=$(curl -s -X 'GET' "$apiqu" -H "accept: application/json" -H "GROCY-API-KEY: $APIKEY")
-        echo "Quantity Units JSON Response:"
-        echo "$content"
+        echo "Failed to send JSON message for id $json_message"
         echo "Response: $response"
     else
         echo "Failed to send JSON message for id: $id"
