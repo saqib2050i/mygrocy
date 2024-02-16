@@ -142,7 +142,7 @@ EOF
         echo "Failed to send JSON message for id $json_message"
         echo "Response: $response"
     else
-        echo "Failed to send JSON message for id: $id"
+        echo "Failed to send JSON message for id: $id | $json_message"
         echo "Unknown response: $response"
     fi
 
