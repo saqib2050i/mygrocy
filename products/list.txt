@@ -1,28 +1,28 @@
-# id name description product_group_id location_id qu_id_purchase qu_id_stock default_consume_location_id qu_id_consume qu_id_price
-1,Salt,Common table salt,Spices,Pantry,gm,Kitchen,tsp
-2,Pepper,Ground black pepper,Spices,Pantry,gm,Kitchen,tsp
-3,Garlic powder,Powdered garlic,Spices,Pantry,gm,Kitchen,tsp
-4,Onion powder,Powdered onion,Spices,Pantry,gm,Kitchen,tsp
-5,Paprika,Ground paprika,Spices,Pantry,gm,Kitchen,tsp
-6,Cumin,Ground cumin,Spices,Pantry,gm,Kitchen,tsp
-7,Chili powder,Blend of chili peppers and spices,Spices,Pantry,gm,Kitchen,tsp
-8,Cayenne pepper,Ground cayenne pepper,Spices,Pantry,gm,Kitchen,tsp
-9,Curry powder,Mixed spice powder,Spices,Pantry,gm,Kitchen,tsp
-10,Turmeric,Ground turmeric,Spices,Pantry,gm,Kitchen,tsp
-11,Ginger,Ground ginger,Spices,Pantry,gm,Kitchen,tsp
-12,Cinnamon,Ground cinnamon,Spices,Pantry,gm,Kitchen,tsp
-13,Nutmeg,Ground nutmeg,Spices,Pantry,gm,Kitchen,tsp
-14,Cloves,Ground cloves,Spices,Pantry,gm,Kitchen,tsp
-15,Allspice,Ground allspice,Spices,Pantry,gm,Kitchen,tsp
-16,Mustard powder,Ground mustard seeds,Spices,Pantry,gm,Kitchen,tsp
-17,Coriander,Ground coriander,Spices,Pantry,gm,Kitchen,tsp
-18,Cardamom,Ground cardamom,Spices,Pantry,gm,Kitchen,tsp
-19,Bay leaves,Dried bay leaves,Spices,Pantry,Packs,Kitchen,dash
-20,Dill,Dried dill,Spices,Pantry,Packs,Kitchen,dash
-21,Parsley,Dried parsley,Spices,Pantry,Packs,Kitchen,dash
-22,Rosemary,Dried rosemary,Spices,Pantry,Packs,Kitchen,dash
-23,Thyme,Dried thyme,Spices,Pantry,Packs,Kitchen,dash
-24,Basil,Dried basil,Spices,Pantry,Packs,Kitchen,dash
-25,Oregano,Dried oregano,Spices,Pantry,Packs,Kitchen,dash
-26,Sage,Dried sage,Spices,Pantry,Packs,Kitchen,dash
-27,Marjoram,Dried marjoram,Spices,Pantry,Packs,Kitchen,dash
+#id,name,description,product_group_id,location_id,qu_id_purchase,qu_id_stock,default_consume_location_id,qu_id_consume,qu_id_price
+1,Salt,Common table salt,Spices,Store,gm,gm,Kitchen,TSP,gm
+2,Pepper,Ground black pepper,Spices,Store,gm,gm,Kitchen,TSP,gm
+3,Garlic powder,Powdered garlic,Spices,Store,gm,gm,Kitchen,TSP,gm
+4,Onion powder,Powdered onion,Spices,Store,gm,gm,Kitchen,TSP,gm
+5,Paprika,Ground paprika,Spices,Store,gm,gm,Kitchen,TSP,gm
+6,Cumin,Ground cumin,Spices,Store,gm,gm,Kitchen,TSP,gm
+7,Chili powder,Blend of chili peppers and spices,Spices,Store,gm,gm,Kitchen,TSP,gm
+8,Cayenne pepper,Ground cayenne pepper,Spices,Store,gm,gm,Kitchen,TSP,gm
+9,Curry powder,Mixed spice powder,Spices,Store,gm,gm,Kitchen,TSP,gm
+10,Turmeric,Ground turmeric,Spices,Store,gm,gm,Kitchen,TSP,gm
+11,Ginger,Ground ginger,Spices,Store,gm,gm,Kitchen,TSP,gm
+12,Cinnamon,Ground cinnamon,Spices,Store,gm,gm,Kitchen,TSP,gm
+13,Nutmeg,Ground nutmeg,Spices,Store,gm,gm,Kitchen,TSP,gm
+14,Cloves,Ground cloves,Spices,Store,gm,gm,Kitchen,TSP,gm
+15,Allspice,Ground allspice,Spices,Store,gm,gm,Kitchen,TSP,gm
+16,Mustard powder,Ground mustard seeds,Spices,Store,gm,gm,Kitchen,TSP,gm
+17,Coriander,Ground coriander,Spices,Store,gm,gm,Kitchen,TSP,gm
+18,Cardamom,Ground cardamom,Spices,Store,gm,gm,Kitchen,TSP,gm
+19,Bay leaves,Dried bay leaves,Spices,Store,Packs,Packs,Kitchen,dash,Packs
+20,Dill,Dried dill,Spices,Store,Packs,Packs,Kitchen,dash,Packs
+21,Parsley,Dried parsley,Spices,Store,Packs,Packs,Kitchen,dash,Packs
+22,Rosemary,Dried rosemary,Spices,Store,Packs,Packs,Kitchen,dash,Packs
+23,Thyme,Dried thyme,Spices,Store,Packs,Packs,Kitchen,dash,Packs
+24,Basil,Dried basil,Spices,Store,Packs,Packs,Kitchen,dash,Packs
+25,Oregano,Dried oregano,Spices,Store,Packs,Packs,Kitchen,dash,Packs
+26,Sage,Dried sage,Spices,Store,Packs,Packs,Kitchen,dash,Packs
+27,Marjoram,Dried marjoram,Spices,Store,Packs,Packs,Kitchen,dash,Packs
