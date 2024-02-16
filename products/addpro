@@ -33,7 +33,7 @@ get_locations_id() {
 # Function to get the ID of the product_group from the Grocy API
 get_product_group_id() {
     local content
-    content=$(curl -s -X 'GET' "$APILOC" -H "accept: application/json" -H "GROCY-API-KEY: $APIKEY")
+    content=$(curl -s -X 'GET' "$APIPG" -H "accept: application/json" -H "GROCY-API-KEY: $APIKEY")
     product_group_id=$(echo "$content" | jq -r '.[] | select(.name == "'"$1"'") | .id')
     echo "$product_group_id"
 }
@@ -50,9 +50,11 @@ fi
 CATEGORY="products"
 QU="quantity_units"
 LOC="locations"
+PG="product_groups"
 API="${APIURL}${CATEGORY}"
 APIQU="${APIURL}${QU}"
 APILOC="${APIURL}${LOC}"
+APIPG="${APIURL}${PG}"
 
 # Get the last ID
 lastid=$(get_last_id)
@@ -61,6 +63,8 @@ newid=$((lastid + 1))
 # Get Date/Time in MM/DD/YYYY HH:MM:SS format
 DATE=$(date +%m/%d/%Y\ %H:%M:%S)
 
+# Create newlist.txt if it doesn't exist
+touch newlist.txt
 
 # Read from list.txt and skip lines starting with #
 while IFS= read -r line; do
@@ -130,6 +134,10 @@ EOF
     if [ $? -eq 0 ] && echo "$response" | jq -e '.created_object_id' > /dev/null; then
         echo "$response : Sent JSON message for id $id : $json_message "
         newid=$((newid + 1))
+        
+        # Remove the line from list.txt and append it to newlist.txt
+        sed -i "/^$id,/d" list.txt
+        echo "$line" >> newlist.txt
     elif [ $? -eq 0 ] && echo "$response" | jq -e '.error_message' > /dev/null; then
         echo "Failed to send JSON message for id $json_message"
         echo "Response: $response"
