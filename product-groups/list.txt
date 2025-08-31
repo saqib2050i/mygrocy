@@ -1,0 +1,11 @@
+1,Spices,All types of herbs and spices
+2,Pantry,Dry goods and non-perishables
+3,Dairy,Milk and cheese and yogurt and butter
+4,Bakery,Bread and buns and cakes and baked goods
+5,Beverages,Soft drinks and juices and tea and coffee and water
+6,Frozen,Frozen vegetables and fruits and ready meals
+7,Meat,Chicken and beef and lamb and other meats
+8,Snacks,Chips and biscuits and chocolates and munchies
+9,Condiments,Sauces and spreads and dips and dressings
+10,Fruits,Fresh fruits of all kinds
+11,Vegetables,Fresh vegetables of all kinds
