@@ -200,4 +200,55 @@
 198,Stevia,Sweetener,Baking,Store,gm,gm,Kitchen,gm,gm
 199,Brown sugar,Sweetener,Baking,Store,kg,kg,Kitchen,gm,kg
 200,Molasses,Sweetener,Baking,Store,ml,ml,Kitchen,ml,ml
+201,Milk,Whole milk,Dairy,Fridge,l,l,Kitchen,ml,l
+202,Skimmed milk,Low-fat milk,Dairy,Fridge,l,l,Kitchen,ml,l
+203,Semi-skimmed milk,Medium-fat milk,Dairy,Fridge,l,l,Kitchen,ml,l
+204,Heavy cream,High-fat cream,Dairy,Fridge,ml,ml,Kitchen,ml,ml
+205,Whipped cream,Ready-to-use,Dairy,Fridge,ml,ml,Kitchen,ml,ml
+206,Butter,Salted butter,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+207,Unsalted butter,Unsalted,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+208,Margarine,Spreadable margarine,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+209,Yogurt,Plain yogurt,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+210,Greek yogurt,Thick yogurt,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+211,Cheddar cheese,Matured cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+212,Parmesan cheese,Grated cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+213,Moist mozzarella,Soft cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+214,Feta cheese,Brined cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+215,Blue cheese,Strong flavor,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+216,Cream cheese,Spreadable cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+217,Eggs,Chicken eggs,Dairy,Fridge,pcs,pcs,Kitchen,pcs,pcs
+218,Quail eggs,Small eggs,Dairy,Fridge,pcs,pcs,Kitchen,pcs,pcs
+219,Soy milk,Plant-based milk,Dairy,Fridge,l,l,Kitchen,ml,l
+220,Almond milk,Plant-based milk,Dairy,Fridge,l,l,Kitchen,ml,l
+221,Oat milk,Plant-based milk,Dairy,Fridge,l,l,Kitchen,ml,l
+222,Rice milk,Plant-based milk,Dairy,Fridge,l,l,Kitchen,ml,l
+223,Cottage cheese,Soft cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+224,Ricotta cheese,Soft cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+225,Mascarpone,Italian cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+226,Provolone cheese,Matured cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+227,Edam cheese,Medium cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+228,Gouda cheese,Matured cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+229,Emmental cheese,Hole cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+230,Processed cheese,Slices,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+231,Kefir,Fermented milk,Dairy,Fridge,ml,ml,Kitchen,ml,ml
+232,Buttermilk,Fermented milk,Dairy,Fridge,ml,ml,Kitchen,ml,ml
+233,Sour cream,Fermented cream,Dairy,Fridge,ml,ml,Kitchen,ml,ml
+234,Ice cream,Vanilla flavor,Dairy,Freezer,ml,ml,Kitchen,ml,ml
+235,Frozen yogurt,Vanilla flavor,Dairy,Freezer,ml,ml,Kitchen,ml,ml
+236,Cheese slices,Processed cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+237,Halloumi cheese,Grilled cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+238,Camembert cheese,Soft cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+239,Brie cheese,Soft cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+240,Pecorino cheese,Italian cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+241,Ghee,Clarified butter,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+242,Evaporated milk,Canned milk,Dairy,Store,ml,ml,Kitchen,ml,ml
+243,Condensed milk,Sweetened canned milk,Dairy,Store,ml,ml,Kitchen,ml,ml
+244,Milk powder,Dry milk,Dairy,Store,gm,gm,Kitchen,gm,gm
+245,Soy yogurt,Plant-based yogurt,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+246,Almond yogurt,Plant-based yogurt,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+247,Coconut yogurt,Plant-based yogurt,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+248,Sheep milk,Whole sheep milk,Dairy,Fridge,l,l,Kitchen,ml,l
+249,Goat milk,Whole goat milk,Dairy,Fridge,l,l,Kitchen,ml,l
+250,Rice yogurt,Plant-based yogurt,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+
 
