@@ -1,0 +1,8 @@
+1,Fridge,Used for fresh dairy, meat, poultry and vegetables
+2,Freezer,Used for ice cream and frozen items
+3,Store,Used for pantry items, dry goods, baby products, pet supplies
+4,Kitchen,Default consume location for pantry and dry goods
+5,Bathroom,Used for personal care products
+6,Medicine Cabinet,Used for medicines and supplements
+7,First Aid Box,Used for first aid items like bandages and antiseptic
+8,Bar,Used for alcoholic beverages
