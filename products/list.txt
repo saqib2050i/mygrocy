@@ -229,12 +229,41 @@
 228,Fruit mix,Frozen berries/mix, Frozen Foods,Freezer,kg,kg,Kitchen,gm,kg
 229,Paratha,Frozen flatbread, Frozen Foods,Freezer,pcs,pcs,Kitchen,pcs,pcs
 230,Paneer,Frozen paneer blocks, Frozen Foods,Freezer,gm,gm,Kitchen,gm,gm
-
-
-
-
-
-
+231,Tomato ketchup,Tomato based condiment,Condiments,Store,ml,ml,Kitchen,ml,ml
+232,Mustard sauce,Yellow mustard,Condiments,Store,gm,gm,Kitchen,gm,gm
+233,Mayonnaise,Creamy mayonnaise,Condiments,Store,ml,ml,Kitchen,ml,ml
+234,Soy sauce,Dark soy sauce,Condiments,Store,ml,ml,Kitchen,ml,ml
+235,Chili sauce,Hot chili sauce,Condiments,Store,ml,ml,Kitchen,ml,ml
+236,BBQ sauce,Barbecue flavor,Condiments,Store,ml,ml,Kitchen,ml,ml
+237,Tomato paste,Concentrated tomato paste,Condiments,Store,gm,gm,Kitchen,gm,gm
+238,Pasta sauce,Ready-to-use pasta sauce,Condiments,Store,ml,ml,Kitchen,ml,ml
+239,Pickles,Mixed vegetable pickles,Condiments,Store,gm,gm,Kitchen,gm,gm
+240,Jam,Strawberry jam,Condiments,Store,gm,gm,Kitchen,gm,gm
+241,Honey,Natural honey,Condiments,Store,ml,ml,Kitchen,ml,ml
+244,Caramel syrup,Sweet topping syrup,Condiments,Store,ml,ml,Kitchen,ml,ml
+245,Chocolate syrup,Sweet topping syrup,Condiments,Store,ml,ml,Kitchen,ml,ml
+246,Oyster sauce,Dark oyster sauce,Condiments,Store,ml,ml,Kitchen,ml,ml
+247,Dark soy sauce,Premium dark soy sauce,Condiments,Store,ml,ml,Kitchen,ml,ml
+248,Nando's peri peri sauce,Spicy peri peri sauce,Condiments,Store,ml,ml,Kitchen,ml,ml
+249,All-purpose cleaner,General surface cleaner,Household,Store,l,l,Kitchen,ml,l
+250,Disinfectant,Surface disinfectant,Household,Store,l,l,Kitchen,ml,l
+251,Floor cleaner,Liquid floor cleaner,Household,Store,l,l,Kitchen,ml,l
+252,Glass cleaner,For windows and mirrors,Household,Store,l,l,Kitchen,ml,l
+253,Toilet cleaner,For bathroom sanitation,Household,Store,l,l,Kitchen,ml,l
+254,Dishwashing liquid,Liquid soap for dishes,Household,Store,l,l,Kitchen,ml,l
+255,Hand soap,Liquid hand soap,Household,Store,ml,ml,Kitchen,ml,ml
+256,Sponges,Scrubbing sponges,Household,Store,pcs,pcs,Kitchen,pcs,pcs
+257,Scouring pads,For tough stains,Household,Store,pcs,pcs,Kitchen,pcs,pcs
+258,Garbage bags,Plastic trash bags,Household,Store,pcs,pcs,Kitchen,pcs,pcs
+259,Paper towels,Absorbent paper towels,Household,Store,pcs,pcs,Kitchen,pcs,pcs
+260,Cloth towels,Cleaning cloth towels,Household,Store,pcs,pcs,Kitchen,pcs,pcs
+261,Broom,Floor sweeping broom,Household,Store,pcs,pcs,Kitchen,pcs,pcs
+262,Dustpan,For collecting dust,Household,Store,pcs,pcs,Kitchen,pcs,pcs
+263,Mop,Floor cleaning mop,Household,Store,pcs,pcs,Kitchen,pcs,pcs
+264,Toilet paper,Rolls for bathroom,Household,Store,pcs,pcs,Kitchen,pcs,pcs
+265,Air freshener,Spray freshener,Household,Store,ml,ml,Kitchen,ml,ml
+266,Laundry detergent,Clothes washing powder/liquid,Household,Store,gm,gm,Kitchen,gm,gm
+267,Fabric softener,Liquid for softening clothes,Household,Store,ml,ml,Kitchen,ml,ml
 
 
 
