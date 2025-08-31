@@ -86,7 +86,6 @@ while IFS= read -r line; do
     # Generate JSON
     json_message=$(cat <<EOF
 {
-    "id": ${newid},
     "name": "${name}",
     "description": "${description}",
     "product_group_id": ${product_group_id},
