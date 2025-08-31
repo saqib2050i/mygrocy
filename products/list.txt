@@ -99,3 +99,105 @@
 98,Cantaloupe,Fresh cantaloupe,Fruits,Store,pcs,pcs,Kitchen,pcs,pcs
 99,Honeydew melon,Fresh honeydew melon,Fruits,Store,pcs,pcs,Kitchen,pcs,pcs
 100,Kiwi,Fresh kiwi,Fruits,Store,pcs,pcs,Kitchen,pcs,pcs
+101,Salt,Common table salt,Spices,Store,gm,gm,Kitchen,tsp,gm
+102,Pepper,Ground black pepper,Spices,Store,gm,gm,Kitchen,tsp,gm
+103,Cinnamon,Ground cinnamon,Spices,Store,gm,gm,Kitchen,tsp,gm
+104,Nutmeg,Ground nutmeg,Spices,Store,gm,gm,Kitchen,tsp,gm
+105,Cloves,Ground cloves,Spices,Store,gm,gm,Kitchen,tsp,gm
+106,Ginger,Ground ginger,Spices,Store,gm,gm,Kitchen,tsp,gm
+107,Turmeric,Ground turmeric,Spices,Store,gm,gm,Kitchen,tsp,gm
+108,Cumin,Ground cumin,Spices,Store,gm,gm,Kitchen,tsp,gm
+109,Chili powder,Blend of chili peppers and spices,Spices,Store,gm,gm,Kitchen,tsp,gm
+110,Paprika,Ground paprika,Spices,Store,gm,gm,Kitchen,tsp,gm
+111,Oregano,Dried oregano,Spices,Store,gm,gm,Kitchen,tsp,gm
+112,Basil dried,Dried basil,Spices,Store,gm,gm,Kitchen,tsp,gm
+113,Thyme dried,Dried thyme,Spices,Store,gm,gm,Kitchen,tsp,gm
+114,Rosemary dried,Dried rosemary,Spices,Store,gm,gm,Kitchen,tsp,gm
+115,Marjoram dried,Dried marjoram,Spices,Store,gm,gm,Kitchen,tsp,gm
+116,Garlic powder,Dried garlic,Spices,Store,gm,gm,Kitchen,tsp,gm
+117,Onion powder,Dried onion,Spices,Store,gm,gm,Kitchen,tsp,gm
+118,Mustard powder,Dried mustard,Spices,Store,gm,gm,Kitchen,tsp,gm
+119,Allspice,Dried allspice,Spices,Store,gm,gm,Kitchen,tsp,gm
+120,Curry powder,Indian curry powder,Spices,Store,gm,gm,Kitchen,tsp,gm
+121,Rice,Long grain rice,Pantry,Store,kg,kg,Kitchen,gm,kg
+122,Basmati rice,Premium basmati,Pantry,Store,kg,kg,Kitchen,gm,kg
+123,Jasmine rice,Fragrant rice,Pantry,Store,kg,kg,Kitchen,gm,kg
+124,White rice,Regular white rice,Pantry,Store,kg,kg,Kitchen,gm,kg
+125,Brown rice,Whole grain rice,Pantry,Store,kg,kg,Kitchen,gm,kg
+126,Pasta,Spaghetti,Pantry,Store,kg,kg,Kitchen,gm,kg
+127,Penne,Tube pasta,Pantry,Store,kg,kg,Kitchen,gm,kg
+128,Fusilli,Spiral pasta,Pantry,Store,kg,kg,Kitchen,gm,kg
+129,Macaroni,Short curved pasta,Pantry,Store,kg,kg,Kitchen,gm,kg
+130,Oats,Rolled oats,Pantry,Store,kg,kg,Kitchen,gm,kg
+131,Flour,All-purpose flour,Pantry,Store,kg,kg,Kitchen,gm,kg
+132,Whole wheat flour,Pantry,Store,kg,kg,Kitchen,gm,kg
+133,Bread crumbs,For coating,Pantry,Store,gm,gm,Kitchen,gm,gm
+134,Quinoa,Organic quinoa,Pantry,Store,kg,kg,Kitchen,gm,kg
+135,Lentils red,Dry red lentils,Pantry,Store,kg,kg,Kitchen,gm,kg
+136,Lentils green,Dry green lentils,Pantry,Store,kg,kg,Kitchen,gm,kg
+137,Chickpeas,Dry chickpeas,Pantry,Store,kg,kg,Kitchen,gm,kg
+138,Black beans,Dry black beans,Pantry,Store,kg,kg,Kitchen,gm,kg
+139,Kidney beans,Dry kidney beans,Pantry,Store,kg,kg,Kitchen,gm,kg
+140,Canned beans,Mixed beans canned,Pantry,Store,can,can,Kitchen,gm,can
+141,Canned tomatoes,Tomatoes in can,Pantry,Store,can,can,Kitchen,gm,can
+142,Canned corn,Kernel corn,Pantry,Store,can,can,Kitchen,gm,can
+143,Canned tuna,Tuna in oil,Pantry,Store,can,can,Kitchen,gm,can
+144,Canned salmon,Salmon fillets canned,Pantry,Store,can,can,Kitchen,gm,can
+145,Tomato paste,Concentrated tomato paste,Pantry,Store,gm,gm,Kitchen,gm,gm
+146,Tomato sauce,Pasta sauce,Pantry,Store,gm,gm,Kitchen,gm,gm
+147,Soy sauce,Dark soy sauce,Pantry,Store,ml,ml,Kitchen,ml,ml
+148,Olive oil,Extra virgin olive oil,Pantry,Store,l,l,Kitchen,ml,l
+149,Vegetable oil,Refined vegetable oil,Pantry,Store,l,l,Kitchen,ml,l
+150,Sugar,White sugar,Pantry,Store,kg,kg,Kitchen,gm,kg
+#id,name,description,product_group,location,qu_id_purchase,qu_id_stock,default_consume_location_id,qu_id_consume,qu_id_price
+151,Coffee beans,Whole coffee beans,Beverages,Store,gm,gm,Kitchen,gm,gm
+152,Ground coffee,Medium roast coffee,Beverages,Store,gm,gm,Kitchen,gm,gm
+153,Instant coffee,Soluble coffee,Beverages,Store,gm,gm,Kitchen,gm,gm
+154,Green tea,Loose leaf green tea,Tea & Infusions,Store,gm,gm,Kitchen,gm,gm
+155,Black tea,Loose leaf black tea,Tea & Infusions,Store,gm,gm,Kitchen,gm,gm
+156,Chamomile tea,Dried chamomile flowers,Tea & Infusions,Store,gm,gm,Kitchen,gm,gm
+157,Herbal tea,Mixed herbal tea,Tea & Infusions,Store,gm,gm,Kitchen,gm,gm
+158,Milk chocolate chips,For baking,Baking,Store,gm,gm,Kitchen,gm,gm
+159,Dark chocolate chips,For baking,Baking,Store,gm,gm,Kitchen,gm,gm
+160,White chocolate chips,For baking,Baking,Store,gm,gm,Kitchen,gm,gm
+161,Baking powder,Leavening agent,Baking,Store,gm,gm,Kitchen,gm,gm
+162,Baking soda,Sodium bicarbonate,Baking,Store,gm,gm,Kitchen,gm,gm
+163,Yeast,Dried baker's yeast,Baking,Store,gm,gm,Kitchen,gm,gm
+164,Vanilla extract,Flavoring,Baking,Store,ml,ml,Kitchen,ml,ml
+165,Almond extract,Flavoring,Baking,Store,ml,ml,Kitchen,ml,ml
+166,Cocoa powder,Unsweetened cocoa,Baking,Store,gm,gm,Kitchen,gm,gm
+167,Maple syrup,Pure maple syrup,Baking,Store,ml,ml,Kitchen,ml,ml
+168,Honey,Natural honey,Baking,Store,ml,ml,Kitchen,ml,ml
+169,Agave syrup,Sweetener,Baking,Store,ml,ml,Kitchen,ml,ml
+170,Evaporated milk,Canned milk,Baking,Store,ml,ml,Kitchen,ml,ml
+171,Condensed milk,Sweetened milk,Baking,Store,ml,ml,Kitchen,ml,ml
+172,Whipping cream,Heavy cream,Dairy,Fridge,ml,ml,Kitchen,ml,ml
+173,Almonds,Raw almonds,Nuts & Seeds,Store,gm,gm,Kitchen,gm,gm
+174,Walnuts,Raw walnuts,Nuts & Seeds,Store,gm,gm,Kitchen,gm,gm
+175,Pecans,Raw pecans,Nuts & Seeds,Store,gm,gm,Kitchen,gm,gm
+176,Cashews,Raw cashews,Nuts & Seeds,Store,gm,gm,Kitchen,gm,gm
+177,Peanuts,Raw peanuts,Nuts & Seeds,Store,gm,gm,Kitchen,gm,gm
+178,Pumpkin seeds,Raw pumpkin seeds,Nuts & Seeds,Store,gm,gm,Kitchen,gm,gm
+179,Sunflower seeds,Raw sunflower seeds,Nuts & Seeds,Store,gm,gm,Kitchen,gm,gm
+180,Chia seeds,Raw chia seeds,Nuts & Seeds,Store,gm,gm,Kitchen,gm,gm
+181,Flax seeds,Raw flax seeds,Nuts & Seeds,Store,gm,gm,Kitchen,gm,gm
+182,Desiccated coconut,Shredded coconut,Baking,Store,gm,gm,Kitchen,gm,gm
+183,Cornstarch,Thickening agent,Baking,Store,gm,gm,Kitchen,gm,gm
+184,Pectin,Fruit thickener,Baking,Store,gm,gm,Kitchen,gm,gm
+185,Gelatin,For desserts,Baking,Store,gm,gm,Kitchen,gm,gm
+186,Chocolate syrup,For topping,Baking,Store,ml,ml,Kitchen,ml,ml
+187,Caramel syrup,For topping,Baking,Store,ml,ml,Kitchen,ml,ml
+188,Sprinkles,Decorative topping,Baking,Store,gm,gm,Kitchen,gm,gm
+189,Fruit jam,Strawberry jam,Baking,Store,gm,gm,Kitchen,gm,gm
+190,Peanut butter,Creamy peanut butter,Baking,Store,gm,gm,Kitchen,gm,gm
+191,Almond butter,Creamy almond butter,Baking,Store,gm,gm,Kitchen,gm,gm
+192,Marzipan,Almond paste,Baking,Store,gm,gm,Kitchen,gm,gm
+193,Raisins,Dried grapes,Baking,Store,gm,gm,Kitchen,gm,gm
+194,Dates,Dried dates,Baking,Store,gm,gm,Kitchen,gm,gm
+195,Apricots,Dried apricots,Baking,Store,gm,gm,Kitchen,gm,gm
+196,Cranberries,Dried cranberries,Baking,Store,gm,gm,Kitchen,gm,gm
+197,Coconut sugar,Sweetener,Baking,Store,gm,gm,Kitchen,gm,gm
+198,Stevia,Sweetener,Baking,Store,gm,gm,Kitchen,gm,gm
+199,Brown sugar,Sweetener,Baking,Store,kg,kg,Kitchen,gm,kg
+200,Molasses,Sweetener,Baking,Store,ml,ml,Kitchen,ml,ml
+
