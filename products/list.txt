@@ -1,28 +1,101 @@
 #id,name,description,product_group_id,location_id,qu_id_purchase,qu_id_stock,default_consume_location_id,qu_id_consume,qu_id_price
-1,Salt,Common table salt,Spices,Store,gm,gm,Kitchen,TSP,gm
-2,Pepper,Ground black pepper,Spices,Store,gm,gm,Kitchen,TSP,gm
-3,Garlic powder,Powdered garlic,Spices,Store,gm,gm,Kitchen,TSP,gm
-4,Onion powder,Powdered onion,Spices,Store,gm,gm,Kitchen,TSP,gm
-5,Paprika,Ground paprika,Spices,Store,gm,gm,Kitchen,TSP,gm
-6,Cumin,Ground cumin,Spices,Store,gm,gm,Kitchen,TSP,gm
-7,Chili powder,Blend of chili peppers and spices,Spices,Store,gm,gm,Kitchen,TSP,gm
-8,Cayenne pepper,Ground cayenne pepper,Spices,Store,gm,gm,Kitchen,TSP,gm
-9,Curry powder,Mixed spice powder,Spices,Store,gm,gm,Kitchen,TSP,gm
-10,Turmeric,Ground turmeric,Spices,Store,gm,gm,Kitchen,TSP,gm
-11,Ginger,Ground ginger,Spices,Store,gm,gm,Kitchen,TSP,gm
-12,Cinnamon,Ground cinnamon,Spices,Store,gm,gm,Kitchen,TSP,gm
-13,Nutmeg,Ground nutmeg,Spices,Store,gm,gm,Kitchen,TSP,gm
-14,Cloves,Ground cloves,Spices,Store,gm,gm,Kitchen,TSP,gm
-15,Allspice,Ground allspice,Spices,Store,gm,gm,Kitchen,TSP,gm
-16,Mustard powder,Ground mustard seeds,Spices,Store,gm,gm,Kitchen,TSP,gm
-17,Coriander,Ground coriander,Spices,Store,gm,gm,Kitchen,TSP,gm
-18,Cardamom,Ground cardamom,Spices,Store,gm,gm,Kitchen,TSP,gm
-19,Bay leaves,Dried bay leaves,Spices,Store,Packs,Packs,Kitchen,dash,Packs
-20,Dill,Dried dill,Spices,Store,Packs,Packs,Kitchen,dash,Packs
-21,Parsley,Dried parsley,Spices,Store,Packs,Packs,Kitchen,dash,Packs
-22,Rosemary,Dried rosemary,Spices,Store,Packs,Packs,Kitchen,dash,Packs
-23,Thyme,Dried thyme,Spices,Store,Packs,Packs,Kitchen,dash,Packs
-24,Basil,Dried basil,Spices,Store,Packs,Packs,Kitchen,dash,Packs
-25,Oregano,Dried oregano,Spices,Store,Packs,Packs,Kitchen,dash,Packs
-26,Sage,Dried sage,Spices,Store,Packs,Packs,Kitchen,dash,Packs
-27,Marjoram,Dried marjoram,Spices,Store,Packs,Packs,Kitchen,dash,Packs
+1,Chicken breast,Boneless chicken breast,Proteins,Fridge,kg,kg,Kitchen,gm,kg
+2,Whole chicken,Whole raw chicken,Proteins,Fridge,kg,kg,Kitchen,gm,kg
+3,Chicken thighs,Chicken thighs with skin,Proteins,Fridge,kg,kg,Kitchen,gm,kg
+4,Ground beef,Minced beef,Proteins,Fridge,kg,kg,Kitchen,gm,kg
+5,Beef steak,Raw beef steak,Proteins,Fridge,kg,kg,Kitchen,gm,kg
+6,Pork chops,Fresh pork chops,Proteins,Fridge,kg,kg,Kitchen,gm,kg
+7,Bacon,Sliced bacon,Proteins,Fridge,gm,gm,Kitchen,gm,gm
+8,Ham,Sliced ham,Proteins,Fridge,gm,gm,Kitchen,gm,gm
+9,Lamb,Lamb chops,Proteins,Fridge,kg,kg,Kitchen,gm,kg
+10,Sausages,Pork sausages,Proteins,Fridge,gm,gm,Kitchen,gm,gm
+11,Turkey breast,Sliced turkey breast,Proteins,Fridge,gm,gm,Kitchen,gm,gm
+12,Fish fillets,Salmon fillets,Proteins,Fridge,kg,kg,Kitchen,gm,kg
+13,Canned tuna,Tuna in water,Proteins,Store,can,can,Kitchen,gm,can
+14,Shrimp,Raw shrimp,Proteins,Fridge,kg,kg,Kitchen,gm,kg
+15,Eggs,Fresh chicken eggs,Proteins,Fridge,pcs,pcs,Kitchen,pcs,pcs
+16,Tofu,Firm tofu,Proteins,Fridge,gm,gm,Kitchen,gm,gm
+17,Tempeh,Fermented soy,Proteins,Fridge,gm,gm,Kitchen,gm,gm
+18,Seitan,Wheat gluten,Proteins,Fridge,gm,gm,Kitchen,gm,gm
+19,Lentils,Red lentils,Proteins,Store,gm,gm,Kitchen,gm,gm
+20,Chickpeas,Canned chickpeas,Proteins,Store,gm,gm,Kitchen,gm,gm
+21,Whole milk,Fresh whole milk,Dairy,Fridge,l,l,Kitchen,ml,l
+22,Skim milk,Low-fat milk,Dairy,Fridge,l,l,Kitchen,ml,l
+23,Cream,Fresh cream,Dairy,Fridge,l,l,Kitchen,ml,l
+24,Butter,Unsalted butter,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+25,Yogurt,Plain yogurt,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+26,Cheddar cheese,Cheddar block,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+27,Mozzarella cheese,Fresh mozzarella,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+28,Parmesan cheese,Grated parmesan,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+29,Sour cream,Fresh sour cream,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+30,Cottage cheese,Low-fat cottage cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+31,Ice cream,Vanilla ice cream,Dairy,Freezer,gm,gm,Kitchen,gm,gm
+32,Oat milk,Plant-based milk,Dairy,Fridge,l,l,Kitchen,ml,l
+33,Almond milk,Plant-based milk,Dairy,Fridge,l,l,Kitchen,ml,l
+34,Soy milk,Plant-based milk,Dairy,Fridge,l,l,Kitchen,ml,l
+35,Rice milk,Plant-based milk,Dairy,Fridge,l,l,Kitchen,ml,l
+36,Goat cheese,Soft goat cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+37,Feta cheese,Greek feta,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+38,Butter salted,Salted butter,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+39,Whipped cream,For desserts,Dairy,Fridge,ml,ml,Kitchen,ml,ml
+40,Yogurt flavored,Fruit-flavored yogurt,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+41,Milk chocolate,Chocolate bar,Pantry,Store,gm,gm,Kitchen,gm,gm
+42,Dark chocolate,Chocolate bar,Pantry,Store,gm,gm,Kitchen,gm,gm
+43,White chocolate,Chocolate bar,Pantry,Store,gm,gm,Kitchen,gm,gm
+44,Cheese slices,Processed cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+45,Paneer,Indian cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+46,Butter ghee,Clarified butter,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+47,Yogurt Greek,Thick yogurt,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+48,Milk powder,Dried milk,Dairy,Store,gm,gm,Kitchen,gm,gm
+49,Buttermilk,Fermented milk,Dairy,Fridge,l,l,Kitchen,ml,l
+50,Cream cheese,Soft cheese,Dairy,Fridge,gm,gm,Kitchen,gm,gm
+51,Potatoes,Fresh potatoes,Vegetables,Store,kg,kg,Kitchen,gm,kg
+52,Sweet potatoes,Orange flesh,Vegetables,Store,kg,kg,Kitchen,gm,kg
+53,Onions,Yellow onions,Vegetables,Store,kg,kg,Kitchen,gm,kg
+54,Red onions,Fresh red onions,Vegetables,Store,kg,kg,Kitchen,gm,kg
+55,Garlic,Fresh garlic cloves,Vegetables,Store,gm,gm,Kitchen,gm,gm
+56,Carrots,Fresh carrots,Vegetables,Store,kg,kg,Kitchen,gm,kg
+57,Tomatoes,Fresh tomatoes,Vegetables,Store,kg,kg,Kitchen,gm,kg
+58,Bell peppers,Bell peppers mixed colors,Vegetables,Store,kg,kg,Kitchen,gm,kg
+59,Cucumbers,Fresh cucumbers,Vegetables,Store,kg,kg,Kitchen,gm,kg
+60,Zucchini,Fresh zucchini,Vegetables,Store,kg,kg,Kitchen,gm,kg
+61,Eggplant,Fresh eggplants,Vegetables,Store,kg,kg,Kitchen,gm,kg
+62,Broccoli,Fresh broccoli,Vegetables,Store,kg,kg,Kitchen,gm,kg
+63,Cauliflower,Fresh cauliflower,Vegetables,Store,kg,kg,Kitchen,gm,kg
+64,Spinach,Fresh spinach,Vegetables,Store,kg,kg,Kitchen,gm,kg
+65,Kale,Fresh kale leaves,Vegetables,Store,kg,kg,Kitchen,gm,kg
+66,Lettuce,Romaine lettuce,Vegetables,Store,kg,kg,Kitchen,gm,kg
+67,Cabbage,Green cabbage,Vegetables,Store,kg,kg,Kitchen,gm,kg
+68,Celery,Fresh celery,Vegetables,Store,kg,kg,Kitchen,gm,kg
+69,Mushrooms,White mushrooms,Vegetables,Store,kg,kg,Kitchen,gm,kg
+70,Peas,Frozen peas,Vegetables,Freezer,kg,kg,Kitchen,gm,kg
+71,Green beans,Fresh green beans,Vegetables,Store,kg,kg,Kitchen,gm,kg
+72,Asparagus,Fresh asparagus,Vegetables,Store,kg,kg,Kitchen,gm,kg
+73,Corn,Corn on cob,Vegetables,Store,pcs,pcs,Kitchen,pcs,pcs
+74,Parsley,Fresh parsley,Vegetables,Store,gm,gm,Kitchen,gm,gm
+75,Cilantro,Fresh cilantro,Vegetables,Store,gm,gm,Kitchen,gm,gm
+76,Dill,Fresh dill,Vegetables,Store,gm,gm,Kitchen,gm,gm
+77,Basil,Fresh basil,Vegetables,Store,gm,gm,Kitchen,gm,gm
+78,Rosemary,Fresh rosemary,Vegetables,Store,gm,gm,Kitchen,gm,gm
+79,Thyme,Fresh thyme,Vegetables,Store,gm,gm,Kitchen,gm,gm
+80,Mint,Fresh mint leaves,Vegetables,Store,gm,gm,Kitchen,gm,gm
+81,Chives,Fresh chives,Vegetables,Store,gm,gm,Kitchen,gm,gm
+82,Apples,Fresh apples,Fruits,Store,kg,kg,Kitchen,gm,kg
+83,Bananas,Fresh bananas,Fruits,Store,kg,kg,Kitchen,gm,kg
+84,Oranges,Fresh oranges,Fruits,Store,kg,kg,Kitchen,gm,kg
+85,Lemons,Fresh lemons,Fruits,Store,kg,kg,Kitchen,gm,kg
+86,Limes,Fresh limes,Fruits,Store,kg,kg,Kitchen,gm,kg
+87,Grapes,Fresh grapes,Fruits,Store,kg,kg,Kitchen,gm,kg
+88,Pears,Fresh pears,Fruits,Store,kg,kg,Kitchen,gm,kg
+89,Peaches,Fresh peaches,Fruits,Store,kg,kg,Kitchen,gm,kg
+90,Plums,Fresh plums,Fruits,Store,kg,kg,Kitchen,gm,kg
+91,Strawberries,Fresh strawberries,Fruits,Store,kg,kg,Kitchen,gm,kg
+92,Blueberries,Fresh blueberries,Fruits,Store,kg,kg,Kitchen,gm,kg
+93,Raspberries,Fresh raspberries,Fruits,Store,kg,kg,Kitchen,gm,kg
+94,Blackberries,Fresh blackberries,Fruits,Store,kg,kg,Kitchen,gm,kg
+95,Mango,Fresh mango,Fruits,Store,pcs,pcs,Kitchen,pcs,pcs
+96,Pineapple,Fresh pineapple,Fruits,Store,pcs,pcs,Kitchen,pcs,pcs
+97,Watermelon,Fresh watermelon,Fruits,Store,pcs,pcs,Kitchen,pcs,pcs
+98,Cantaloupe,Fresh cantaloupe,Fruits,Store,pcs,pcs,Kitchen,pcs,pcs
+99,Honeydew melon,Fresh honeydew melon,Fruits,Store,pcs,pcs,Kitchen,pcs,pcs
+100,Kiwi,Fresh kiwi,Fruits,Store,pcs,pcs,Kitchen,pcs,pcs
