@@ -264,6 +264,59 @@
 265,Air freshener,Spray freshener,Household,Store,ml,ml,Kitchen,ml,ml
 266,Laundry detergent,Clothes washing powder/liquid,Household,Store,gm,gm,Kitchen,gm,gm
 267,Fabric softener,Liquid for softening clothes,Household,Store,ml,ml,Kitchen,ml,ml
+268,Toothpaste,Fluoride toothpaste,Personal Care,Store,gm,gm,Bathroom,gm,gm
+269,Toothbrush,Manual toothbrush,Personal Care,Store,pcs,pcs,Bathroom,pcs,pcs
+270,Mouthwash,Oral rinse,Personal Care,Store,ml,ml,Bathroom,ml,ml
+271,Shampoo,Hair cleaning shampoo,Personal Care,Store,ml,ml,Bathroom,ml,ml
+272,Conditioner,Hair conditioner,Personal Care,Store,ml,ml,Bathroom,ml,ml
+273,Soap,Bar soap for body,Personal Care,Store,pcs,pcs,Bathroom,pcs,pcs
+274,Hand wash,Liquid hand wash,Personal Care,Store,ml,ml,Bathroom,ml,ml
+275,Deodorant,Body spray or roll-on,Personal Care,Store,ml,ml,Bathroom,ml,ml
+276,Shaving cream,Cream for shaving,Personal Care,Store,ml,ml,Bathroom,ml,ml
+277,Razor,Manual razor,Personal Care,Store,pcs,pcs,Bathroom,pcs,pcs
+278,Feminine hygiene pads,Sanitary pads,Personal Care,Store,pcs,pcs,Bathroom,pcs,pcs
+279,Face cream,Moisturizer cream,Personal Care,Store,gm,gm,Bathroom,gm,gm
+280,Lip balm,Lip moisturizing balm,Personal Care,Store,gm,gm,Bathroom,gm,gm
+281,Sunscreen,Sun protection lotion,Personal Care,Store,ml,ml,Bathroom,ml,ml
+282,Body lotion,Moisturizing lotion,Personal Care,Store,ml,ml,Bathroom,ml,ml
+283,Hairspray,Hair styling spray,Personal Care,Store,ml,ml,Bathroom,ml,ml
+284,Philips One Blade,Rechargeable electric shaver,Personal Care,Store,pcs,pcs,Bathroom,pcs,pcs
+285,Wax,Hair removal wax,Personal Care,Store,gm,gm,Bathroom,gm,gm
+286,Baby formula,Infant milk formula,Baby Products,Store,gm,gm,Kitchen,gm,gm
+287,Baby cereal,Infant cereal,Baby Products,Store,gm,gm,Kitchen,gm,gm
+288,Baby oil,Moisturizing oil,Baby Products,Store,ml,ml,Bathroom,ml,ml
+289,Baby lotion,Moisturizing lotion,Baby Products,Store,ml,ml,Bathroom,ml,ml
+290,Baby shampoo,Mild baby shampoo,Baby Products,Store,ml,ml,Bathroom,ml,ml
+291,Baby wipes,Soft cleansing wipes,Baby Products,Store,pcs,pcs,Bathroom,pcs,pcs
+292,Diapers,Disposable diapers,Baby Products,Store,pcs,pcs,Bathroom,pcs,pcs
+293,Baby soap,Mild soap for babies,Baby Products,Store,pcs,pcs,Bathroom,pcs,pcs
+294,Baby powder,Talcum powder,Baby Products,Store,gm,gm,Bathroom,gm,gm
+295,Baby feeding bottle,Plastic feeding bottle,Baby Products,Store,pcs,pcs,Kitchen,pcs,pcs
+296,Nipple,Replacement nipple for bottle,Baby Products,Store,pcs,pcs,Kitchen,pcs,pcs
+297,Dog food,Dry kibble for dogs,Pet Supplies,Store,kg,kg,Kitchen,gm,kg
+298,Cat food,Dry kibble for cats,Pet Supplies,Store,kg,kg,Kitchen,gm,kg
+299,Dog treats,Chewy snacks for dogs,Pet Supplies,Store,gm,gm,Kitchen,gm,gm
+300,Cat treats,Chewy snacks for cats,Pet Supplies,Store,gm,gm,Kitchen,gm,gm
+301,Pet shampoo,Mild shampoo for pets,Pet Supplies,Store,ml,ml,Bathroom,ml,ml
+302,Pet brush,Brush for pet grooming,Pet Supplies,Store,pcs,pcs,Bathroom,pcs,pcs
+303,Cat litter,Absorbent litter,Pet Supplies,Store,kg,kg,Kitchen,kg,kg
+304,Pet toys,Chew and play toys,Pet Supplies,Store,pcs,pcs,Kitchen,pcs,pcs
+305,Pet carrier,Transport bag for pets,Pet Supplies,Store,pcs,pcs,Kitchen,pcs,pcs
+306,Paracetamol,Pain reliever and fever reducer,Health and Medicine,Medicine Cabinet,gm,gm,Medicine Cabinet,gm,gm
+307,Ibuprofen,Anti-inflammatory pain reliever,Health and Medicine,Medicine Cabinet,gm,gm,Medicine Cabinet,gm,gm
+308,Aspirin,Pain reliever and blood thinner,Health and Medicine,Medicine Cabinet,gm,gm,Medicine Cabinet,gm,gm
+309,Antacid,Relieves heartburn,Health and Medicine,Medicine Cabinet,gm,gm,Medicine Cabinet,gm,gm
+310,Cough syrup,Syrup for cough relief,Health and Medicine,Medicine Cabinet,ml,ml,Medicine Cabinet,ml,ml
+311,Vitamin C,Immune supplement,Health and Medicine,Medicine Cabinet,gm,gm,Medicine Cabinet,gm,gm
+312,Multivitamins,Daily vitamin supplement,Health and Medicine,Medicine Cabinet,gm,gm,Medicine Cabinet,gm,gm
+313,Calcium tablets,Bone health supplement,Health and Medicine,Medicine Cabinet,pcs,pcs,Medicine Cabinet,pcs,pcs
+314,Omega 3 capsules,Fish oil supplement,Health and Medicine,Medicine Cabinet,pcs,pcs,Medicine Cabinet,pcs,pcs
+315,Antihistamine,Allergy relief,Health and Medicine,Medicine Cabinet,gm,gm,Medicine Cabinet,gm,gm
+316,Bandages,Adhesive bandages,Health and Medicine,First Aid Box,pcs,pcs,First Aid Box,pcs,pcs
+317,Antiseptic cream,Wound healing cream,Health and Medicine,First Aid Box,gm,gm,First Aid Box,gm,gm
+318,Thermometer,Digital thermometer,Health and Medicine,First Aid Box,pcs,pcs,First Aid Box,pcs,pcs
+
+
 
 
 
